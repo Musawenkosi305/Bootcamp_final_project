@@ -1,0 +1,170 @@
+.d0{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d1{
+    width: 300px;
+    background: linear-gradient(hsl(252, 84%, 65%), hsl(241, 80%, 50%));
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    border-radius: 30px;
+
+}
+
+.d2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d3{
+    background: linear-gradient(hsl(252, 84%, 65%), hsl(241, 80%, 50%));
+    border-radius: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 140px;
+    width: 140px;
+    margin-left: 80px;
+    margin-top: 40px;
+    
+    
+}
+
+.wrapper{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    border: 1px solid rgb(235, 231, 231);
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.d1-info{
+    margin-left: 50px;
+}
+
+button{
+    color: rgb(209, 204, 204);
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 80px ;
+}
+
+button:hover{
+    background: linear-gradient(hsl(252, 88%, 57%), hsl(241, 94%, 48%));
+    color: rgb(254, 254, 255);
+    cursor: pointer;
+    
+}
+
+#p1{
+    color: rgb(251, 5, 54);
+    background-color: rgb(248, 244, 245);
+}
+#p2{
+    color: gold;
+    background-color: rgb(253, 251, 242);
+    
+}
+#p3{
+    color: lightseagreen;
+    background-color: rgb(240, 251, 251);
+}
+#p4{
+    color: rgb(50, 16, 245);
+    background-color: rgb(239, 239, 251);
+}
+
+h1, h2, h4{
+    color: white;
+}
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+pre{
+    color: rgb(209, 204, 204);
+}
+.d4{
+    color: rgb(209, 204, 204);
+    
+}
+
+
+#p1, #p2, #p3, #p4{
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.span{
+    color: black;
+    padding-left: 60px;
+}
+
+
+.navibar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(hsl(252, 88%, 57%), hsl(241, 94%, 48%));
+    color: white;
+    border: 8px ridge black;
+    
+  }
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 12px;
+    
+  }
+
+  li a, a{
+    text-decoration: none;
+    color: white;
+  }
+.logo{
+    margin-left: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#img{
+    margin-right: 10px;
+    
+}
+
+.images{
+    padding-top: 10px;
+}
+
+form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 10px double black;
+}
+
+
+#results{
+    color: black;
+}
+#summary{
+    font-size: x-large;
+    font-weight: bolder;
+}
