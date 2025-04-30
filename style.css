@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .d3{
@@ -33,7 +34,6 @@
     margin-left: 80px;
     margin-top: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
     
 }
 
@@ -50,7 +50,9 @@
 }
 
 .d1-info{
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
 }
 
 button{
@@ -92,10 +94,12 @@ h2{
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-top: 20px;
 }
 
 pre{
     color: rgb(209, 204, 204);
+    padding-top: 30px;
 }
 .d4{
     color: rgb(209, 204, 204);
@@ -287,4 +291,8 @@ legend{
 
 .register-link p a:hover{
     text-decoration: underline;
+}
+
+.btn{
+    padding-bottom: 25px;
 }
